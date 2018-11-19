@@ -380,7 +380,7 @@ namespace Astroid {
           return true;
         });
 
-    keys.register_key ("A", "edit_messsage.attach_mids",
+    keys.register_key ("A", "edit_message.attach_mids",
         "Attach messages by mids",
         [&] (Key) {
           main_window->enable_command (CommandBar::CommandMode::AttachMids,
